@@ -1,5 +1,5 @@
 jte {
-    template = "jenkinsfile"
+    pipeline_template = "jenkinsfile"
 }
 library{
     sonar{
