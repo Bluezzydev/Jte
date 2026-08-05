@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    stages {
+        stage('Sonar') {
+            steps {
+                script {
+                    sonar.init("my_app")
+                }
+            }
+        }
+    }
+}
