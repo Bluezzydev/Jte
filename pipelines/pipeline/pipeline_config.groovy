@@ -1,7 +1,7 @@
 jte {
     pipeline_template = "jenkinsfile"
 }
-library{
+libraries{
     sonar{
         name = "sonar"
     }
