@@ -1,5 +1,5 @@
 fields{
     optional{
-        name = string
+        name=string
     }
 }

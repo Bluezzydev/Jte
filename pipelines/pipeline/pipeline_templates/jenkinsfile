@@ -4,7 +4,7 @@ pipeline {
         stage('Sonar') {
             steps {
                 script {
-                    sonar.init("my_app")
+                    init("my_app")
                 }
             }
         }
